@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Speed</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav class="bg-warning p-1">
+        <div class="container text-center text-white">
+
+            <h1>How Fast Can You Type ?</h1>
+
+        </div>
+    </nav>
+    <div class="container  text-center m-auto py-5 text-white">
+        <h3>Type The Given Word Within <span class="seconds text-primary">3</span> Seconds:
+        </h3>
+        <h2 class="word my-5 text-capitalize"></h2>
+        <input  type="text" placeholder="start typing...." class="form-control my-5 w-50 m-auto">
+        <h4 class="mt-3 message">Start Playing</h4>
+        <div class="row  m-auto pt-4 gx-0 text-center">
+            <div class="col-md-6">
+                <h3>Time Left: <span class="time-left">0</span>
+                </h3>
+            </div>
+            <div class="col-md-6">
+                <h3>Score : <span class="score">0</span>
+                </h3>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class="btn d-none  btn-outline-warning my-5 px-5 text-uppercase py-2">refresh</button>
+
+        </div>
+        <div class="show instructions rounded rounded-1 bg-primary px-5 py-2 m-auto ">
+            <h5>
+                Instructions
+            </h5>
+            <p>
+                Type each word in the given amount of seconds to score. To play again, just type the current word. Your
+                score will reset
+
+            </p>
+        </div>
+    </div>
+
+
+
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
